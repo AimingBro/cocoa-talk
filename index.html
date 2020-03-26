@@ -44,28 +44,32 @@
         </header>
         <!--Screen Title End-->
         <!--Screen main Start-->
-        <a href="chat.html">
         <main class="chats">
           <ul class="chats__list">
             <li class="chats__chat chat">
-              <div class="chat__column">
-                <img class="chat__avatar g-avatar" src="images/avatar.jpg" />
-                <div class="chat__content">
-                  <span class="chat__username">
-                    Jason
-                  </span>
-                  <span class="chat__preview">
-                    Hello!
-                  </span>
+              <a href="chat.html">
+                <div class="chats__chat friend friend--lg">
+                  <div class="friend__column">
+                   <img src="images/avatar.jpg" class="m-avatar friend__avatar" />
+                    <div class="friend__content">
+                      <span class="friend__name">
+                        JH
+                      </span>
+                      <sapn class="friend__bottom-text">
+                        Good bye!
+                      </sapn>
+                    </div>
+                  </div>
+                  <div class="friend__column">
+                    <span class="chat__timestamp">
+                      March 8
+                    </span>
+                  </div>
                 </div>
-              </div>
-              <div class="chat__column">
-                <span class="chat__timestamp">Yesterday</span>
-              </div>
+              </a>
             </li>
           </ul>
         </main>
-        </a>
         <!--Screen main End-->
         <!--Navigation Bar Start-->
         <nav class="nav">
@@ -77,6 +81,7 @@
             </li>
             <li class="nav__list-item">
               <a href="./index.html" class="nav__list-link">
+                <div class="nav__badge">8</div>
                 <i class="fas fa-comment"></i>
               </a>
             </li>
